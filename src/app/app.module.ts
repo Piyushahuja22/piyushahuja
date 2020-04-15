@@ -13,6 +13,8 @@ import { IntroComponent } from './home/intro/intro.component';
 import { AboutMeDetailsComponent } from './shared/about-me-details/about-me-details.component';
 import { MyWorksComponent } from './shared/my-works/my-works.component';
 import { MyServicesComponent } from './shared/my-services/my-services.component';
+import { WorksComponent } from './works/works.component';
+import { HeaderComponent } from './shared/header/header.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { MyServicesComponent } from './shared/my-services/my-services.component'
     IntroComponent,
     AboutMeDetailsComponent,
     MyWorksComponent,
-    MyServicesComponent
+    MyServicesComponent,
+    WorksComponent,
+    HeaderComponent
   ],
   imports: [
     AppRoutingModule,
