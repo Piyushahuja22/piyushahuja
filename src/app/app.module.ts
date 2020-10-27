@@ -15,6 +15,7 @@ import { MyWorksComponent } from './shared/my-works/my-works.component';
 import { MyServicesComponent } from './shared/my-services/my-services.component';
 import { WorksComponent } from './works/works.component';
 import { HeaderComponent } from './shared/header/header.component';
+import { ContactComponent } from './shared/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { HeaderComponent } from './shared/header/header.component';
     MyWorksComponent,
     MyServicesComponent,
     WorksComponent,
-    HeaderComponent
+    HeaderComponent,
+    ContactComponent
   ],
   imports: [
     AppRoutingModule,
